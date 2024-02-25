@@ -88,7 +88,7 @@ img {
 }	
 
 .image {
-	display: block;
+	display: flex;
 	flex-wrap: wrap;
 	
 }
@@ -127,13 +127,6 @@ footer {
 
 }
 
-.col2 {
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
-}
-
 footer a {
 	color: white;
 	padding-right: 5px;
@@ -145,8 +138,23 @@ footer a {
 
 .link li {
 	padding: 5px 5px 5px 0;
+	font-size: small;
 }
 
+.col50 {
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	/* border: 1px solid red; */
+}
+
+.col50sx {
+	justify-content: left;
+}
+
+.col50dx {
+	justify-content: right;
+}
 
 
 
@@ -159,3 +167,4 @@ footer a {
   'GRAD' 0,
   'opsz' 24
 }
+
