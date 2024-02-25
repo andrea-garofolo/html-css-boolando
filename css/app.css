@@ -1,0 +1,161 @@
+/*RESET*/
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+ul, ol, menu {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+/*HEADER*/
+
+.page-header {
+	background-color: #9c470d;
+	color: white;
+	margin-bottom: 15px;
+}
+
+.container {
+	max-width: 1024px;
+	margin: 0px auto;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.header-menu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header-item {
+	padding: 10px;	
+}
+
+.logo img {
+	height: 50px;
+	display: block;
+}
+
+.page-header .row {
+	height: 60px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/*MAIN*/
+
+/*INTRO*/
+
+.col1 {
+	display: flex;
+	/* border: 2px solid red; */
+	width: 100%;
+	justify-content: center;
+}
+
+.col1 h1 {
+	font-size: 50px;
+	font-weight: bold;
+}
+
+/*STORE*/
+
+.store {
+	padding-top: 25px;
+}
+
+.card {
+	width: calc(100%/3);
+	padding: 5px;
+}
+
+.card > * {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}	
+
+.image {
+	display: block;
+	flex-wrap: wrap;
+	
+}
+
+.description {
+	justify-content: left;
+	flex-wrap: wrap;
+	padding: 0 5px;
+	display: block;
+	border: solid 1px lightgray;
+}
+
+.description p {
+	display: inline;
+}
+
+.active {
+	color: red;
+	font-weight: bold; 
+}
+
+.sale {
+	padding-left: 5px;
+	text-decoration: line-through;
+}
+
+
+/*FOOTER*/
+
+footer {
+	margin-top: 25px;
+	height: 100px;
+	padding: 25px;
+	background-color: #1b1b1b;
+	color: white;
+
+}
+
+.col2 {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+footer a {
+	color: white;
+	padding-right: 5px;
+}
+
+.link {
+	display: flex;
+}
+
+.link li {
+	padding: 5px 5px 5px 0;
+}
+
+
+
+
+/*GOOGLE ICONE*/
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
